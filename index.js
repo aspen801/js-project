@@ -1,3 +1,9 @@
-import _ from 'lodash';
+import normalize from './normalize.js';
 
-console.log(_.last(['one', 'two']));
+const lesson = {
+  name: 'ДеструКТУРИЗАЦИЯ',
+  description: 'каК удивитЬ колек',
+};
+
+normalize(lesson);
+console.log(lesson);
