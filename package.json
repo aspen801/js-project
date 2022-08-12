@@ -1,0 +1,23 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "<h2>My JS project for learning purposes</h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspen801/js-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspen801/js-project/issues"
+  },
+  "homepage": "https://github.com/aspen801/js-project#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
