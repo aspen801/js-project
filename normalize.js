@@ -1,7 +1,9 @@
-import * as _ from 'lodash';
+import _ from 'lodash';
 
 const normalize = (object) => {
-  _.capitalize('rraRRarRAWrr');
-};
+  object.name = _.capitalize(object.name);
+  var description = object.description;
+  object.description = description.toLowerCase();
+ };
 
 export default normalize;
