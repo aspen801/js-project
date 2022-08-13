@@ -18,7 +18,7 @@ console.log(compareObjects(company3, company4));
 
 normalize(lesson)
 console.log(lesson);
-console.log(getDomainInfo('https://rezka.ag/series/thriller/646-vo-vse-tyazhkie-2008.html'));
+console.log(getDomainInfo('http://github.com/aspen801/js-project/blob/main/domain.js'));
 
 
 
