@@ -1,6 +1,7 @@
 import normalize from './normalize.js';
 import compareObjects from './compare.js';
 import getDomainInfo from './domain.js';
+import countWords from './words.js';
 
 const lesson = {
   name: 'ДеструКТУРИЗАЦИЯ',
@@ -19,6 +20,6 @@ console.log(compareObjects(company3, company4));
 normalize(lesson)
 console.log(lesson);
 console.log(getDomainInfo('http://github.com/aspen801/js-project/blob/main/domain.js'));
-
+console.log(countWords('lorem LOrEm  ipsum   forem aren    gobel    IpSuM   gObel     GobEl'))
 
 
