@@ -1,5 +1,6 @@
 import normalize from './normalize.js';
 import compareObjects from './compare.js';
+import getDomainInfo from './domain.js';
 
 const lesson = {
   name: 'ДеструКТУРИЗАЦИЯ',
@@ -17,5 +18,7 @@ console.log(compareObjects(company3, company4));
 
 normalize(lesson)
 console.log(lesson);
+console.log(getDomainInfo('https://rezka.ag/series/thriller/646-vo-vse-tyazhkie-2008.html'));
+
 
 
