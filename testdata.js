@@ -1,6 +1,6 @@
 export const lesson = {
     name: 'ДеструКТУРИЗАЦИЯ',
-    description: 'каК удивитЬ колек',
+    description: 'каК удивитЬ колеГ',
   };
 
   export const company1 = { name: 'Hexlet', state: 'moderating', website: 'https://hexlet.io' };
@@ -11,3 +11,17 @@ export const lesson = {
 
   export var domain = 'http://github.com/aspen801/js-project/blob/main/domain.js';
   export var loremText = 'lorem LOrEm  ipsum   forem aren    gobel    IpSuM   gObel     GobEl';
+
+  export const testObject = {
+    user: 'ubuntu',
+    hosts: {
+      zero: {
+        name: 'web1',
+      },
+      1: {
+        name: 'web2',
+        null: 3,
+        active: false,
+      },
+    },
+  };
