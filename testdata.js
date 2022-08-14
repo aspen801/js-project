@@ -25,3 +25,16 @@ export const lesson = {
       },
     },
   };
+
+  export const site = {
+    name: null,
+    state: 'moderating',
+    car: 'Nissan'
+  };
+  
+  export const data = {
+    name: 'Hexlet',
+    state: 'published',
+    voice: 'high',
+    car: 'Chevrolet'
+  };
