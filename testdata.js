@@ -1,6 +1,6 @@
 export const lesson = {
     name: 'ДеструКТУРИЗАЦИЯ',
-    description: 'каК удивитЬ колеГ',
+    description: 'уроК пО дестРуктуРиЗации',
   };
 
   export const company1 = { name: 'Hexlet', state: 'moderating', website: 'https://hexlet.io' };
