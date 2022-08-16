@@ -13,3 +13,5 @@ const getObject = (object, keyPath) => {
 console.log(getObject(testData.testObject, ['hosts', 1, 'null']));
 
 export default getObject;
+
+
