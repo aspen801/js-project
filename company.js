@@ -1,4 +1,4 @@
-const getCompany = (name, extraProps) => {
+const getCompany = (extraProps,  name) => {
   if (name === undefined) return console.log('error, name not defined');
 
   const date = new Date();
@@ -16,4 +16,4 @@ const getCompany = (name, extraProps) => {
   return company;
 };
 
-console.log(getCompany('Hexlet', { website: 'hexlet.io', state: 'published' }));
+console.log(getCompany({ website: 'hexlet.io', state: 'published' }, 'Hexlet'));
