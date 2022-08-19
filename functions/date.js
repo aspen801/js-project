@@ -1,5 +1,4 @@
-//Converts an array of dates to an array of human-readable English strings
-
+// Converts an array of dates to an array of human-readable English strings
 
 const convert = (...dates) => {
   const dateStrings = [];
