@@ -1,3 +1,5 @@
+//Separation of commands and requests
+
 let primeOrNot = (num) => {
   if (num % num === 0 && num % 1 === 0 && num > 0) {
     return true;
