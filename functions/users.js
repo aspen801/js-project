@@ -1,3 +1,5 @@
+// Higher order functions
+
 import _ from 'lodash';
 
 const users = [
