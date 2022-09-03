@@ -1,3 +1,5 @@
+// .filter usage
+
 const users = [
     {
       name: 'Tirion',
