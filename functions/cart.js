@@ -2,7 +2,7 @@ const makeCart = () => {
   const obj = {
     items: [],
     // {goodProperties: {name: 'car', price: 10}, count: 4}
-    addItem: (good, count = 1) => {
+    addItem: (good, count) => {
       if (Object.values(obj.items.map((item) => item.goodProperties.name)).includes(good.name)) {
         obj.items.map((item) => {
           if (item.goodProperties.name === good.name) {
