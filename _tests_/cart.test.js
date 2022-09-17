@@ -13,6 +13,7 @@ test('cart', () => {
     expect(cart.items[1]).toStrictEqual({goodProperties: {name: 'house', price: 10}, count: 4});
     expect(cart.items.length).toEqual(2);
     expect(cart.getCount()).toEqual(9);
-    expect(cart.getCost()).toEqual(55);  
+    expect(cart.getCost()).toEqual(55); 
+    expect(cart.getItems()).toStrictEqual(cart.items);
 });
 

@@ -1,8 +1,5 @@
 const makeCart = () => {
   const obj = {
-    getName: () => {
-
-    },
     items: [],
     // {goodProperties: {name: 'car', price: 10}, count: 4}
     addItem: (good, count = 1) => {
