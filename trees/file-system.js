@@ -50,14 +50,14 @@ nodejs-package # directory (meta: { hidden: true })
 }
 */
 
-const mkdir = (name, children, meta = {}) => ({
+export const mkdir = (name, children, meta = {}) => ({
   name,
   type: 'directory',
   meta,
   children,
 });
 
-const mkfile = (name, meta = {}) => ({
+export const mkfile = (name, meta = {}) => ({
   name,
   type: 'file',
   meta,
@@ -97,7 +97,7 @@ const obj = {
   getline: (i) => `${obj.getCurrentTab(i)} ├──`,
   printedTree: (tree) => {
     if (tree?.children) {
-      obj.count++;
+      obj.count+=1;
       tree.children.map((child, i, array) => {
         if (child?.children || i === array.length - 1) {
           obj.stringTree = obj.stringTree.concat(`${obj.getEndline(obj.count)}${child.name} \n`);     
@@ -109,7 +109,8 @@ const obj = {
     return (`${tree.name} \n` + `${obj.stringTree}`);
   },
 };
-
+/*
 console.dir(tree, { depth: null, color: true });
 const testTree = obj;
 console.log(testTree.printedTree(tree));
+*/
