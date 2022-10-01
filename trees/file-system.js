@@ -50,7 +50,7 @@ nodejs-package # directory (meta: { hidden: true })
 }
 */
 
-export const mkdir = (name, children, meta = {}) => ({
+export const mkdir = (name, children = [], meta = {}) => ({
   name,
   type: 'directory',
   meta,
@@ -62,6 +62,8 @@ export const mkfile = (name, meta = {}) => ({
   type: 'file',
   meta,
 });
+
+export const isFile = (tree) => tree.type === 'file' ? true : false;
 
 const tree = mkdir('nodejs-package', [
   mkfile('Makefile'),
