@@ -18,7 +18,7 @@ const tree = mkdir('/', [
   mkfile('resolve', { size: 1000 }),
 ]);
 
-const getSum = (array) => array.reduce((accumulator, item) => {
+export const getSum = (array) => array.reduce((accumulator, item) => {
   accumulator += item;
   return accumulator;
 }, 0);
@@ -32,5 +32,6 @@ const getHiddenFilesCount = (tree) => {
     return getSum(count);
   } return 0;
 };
-
+/*
 console.log(getHiddenFilesCount(tree));
+*/
