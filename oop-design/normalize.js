@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { countries } from './country-city-list.js';
+import { data } from './country-city-list.js';
 
 function normalize(array) {
   const newArray = array;
@@ -16,4 +16,4 @@ function normalize(array) {
   return resultObject;
 }
 
-console.log(normalize(countries));
+console.log(normalize(data));

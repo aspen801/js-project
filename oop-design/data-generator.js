@@ -6,7 +6,7 @@ fs.readFile('./data.json', 'utf8', (err, jsonString) => {
     return;
   }
   const data = JSON.parse(jsonString);
-  let resultString = 'export const countries = [\n';
+  let resultString = 'export const data = [\n';
   for (const item in data) {
     if (data[item].length < 20) {
       for (let i = 0; i < data[item].length; i++) {
