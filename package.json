@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aspen801/js-project#readme",
   "dependencies": {
     "async": "^3.2.4",
+    "axios": "^1.2.1",
     "crc-32": "^1.2.2",
     "crc32": "^0.2.2",
     "lodash": "^4.17.21",
